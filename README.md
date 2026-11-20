@@ -9,7 +9,7 @@ Kaggle: House Prices — Advanced Regression Techniques (Ames, Iowa)
 
 ## Contents
 
-- `house-prediction_SEBANY_Romualdo_AitAmeur_Abdenafaa.ipynb` — full pipeline: EDA → missing values → feature engineering → preprocessing → model comparison → tuning → hold-out evaluation → submission. Runs on Kaggle (competition data auto-detected) or locally (uses `./data/`).
+- `main.ipynb` — full pipeline: EDA → missing values → feature engineering → preprocessing → model comparison → tuning → hold-out evaluation → submission. Runs on Kaggle (competition data auto-detected) or locally (uses `./data/`).
 - `submission.csv` — Kaggle submission, tuned ElasticNet refit on all labelled rows.
 - `results.json` — machine-readable results: all models (CV + hold-out, $ and %), tuning outcome, metrics.
 - `training_history.csv`, `training_history.json` — train/validation learning curve and the full cross-validation/tuning history.
@@ -18,7 +18,6 @@ Kaggle: House Prices — Advanced Regression Techniques (Ames, Iowa)
 - `app.py` — Streamlit showcase: Overview / Model comparison / Final model evaluation / Price predictor / Submission (with submission upload & comparison).
 - `data/` — train.csv, test.csv, sample_submission.csv, data_description.txt (for local re-runs; on Kaggle the notebook finds the competition data automatically).
 - `screenshots/` — Streamlit app screenshots: overview, model comparison, final evaluation, price predictor.
-- `docs/` — the PW1 assignment brief.
 
 ## How to run
 
