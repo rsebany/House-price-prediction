@@ -2,8 +2,6 @@
 
 Kaggle House Prices: Advanced Regression Techniques (Ames, Iowa).
 
-Team: SEBANY Romualdo and Ait ameur Abdenafaa
-
 Model: tuned ElasticNet on log(SalePrice), refit on all 1458 labelled rows for the submission.
 
 Validation results: MAE 13442 (7.41%), RMSE 18874 (10.41%), R2 0.936, RMSLE 0.1105.
